@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ex3and2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ffff"
+        android:id="@+id/mask1"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        >
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/clock"
+            >
+
+
+        </ImageView>
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="07:00"
+            android:textSize="50dp"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="in 16 hour"
+            android:layout_marginTop="-15dp"
+            />
+        <Switch
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-15dp"
+            android:layout_marginRight="0dp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/mask2"
+        android:layout_below="@+id/mask1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:background="#ffff"
+        >
+        <ImageView
+            android:layout_marginLeft="30dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/lich"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="08:30-09:30: Meeting"
+            android:textSize="18dp"
+            android:layout_marginLeft="5dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/mask3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/mask2"
+        android:background="#ffff"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1 other event tomorrow after 07:00"
+            android:layout_marginLeft="60dp"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/mask4"
+        android:layout_below="@+id/mask3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:background="#ffff"
+        >
+        <ImageView
+            android:layout_marginLeft="28dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/cloud"
+            />
+        <TextView
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:text="Tomorrow"
+            android:textSize="18dp"
+            android:layout_marginLeft="5dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10 °C"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/mask5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/mask4"
+        android:background="#ffff"
+        >
+        <TextView
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:text="Breezy starting in the afternoon and"
+            android:layout_marginLeft="60dp"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="13 °C"
+            android:layout_marginLeft="10dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/mask6"
+        android:layout_below="@+id/mask5"
+        android:background="#ffff"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Drizzle starting in the afternoon"
+            android:layout_marginLeft="60dp"
+            />
+        <TextView
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="continuing until evening"
+            android:layout_marginLeft="60dp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/mask6"
+        android:background="#ffff"
+        >
+    <LinearLayout
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/mask6"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffff"
+        >
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/moon"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/mask6"
+        android:layout_marginTop="20dp"
+        android:background="#ffff"
+        android:layout_marginLeft="-2dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AT 07:00"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="clear"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mask6"
+        android:layout_marginTop="20dp"
+        android:background="#ffff"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10 °C"
+            android:textSize="20dp"
+            />
+
+    </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

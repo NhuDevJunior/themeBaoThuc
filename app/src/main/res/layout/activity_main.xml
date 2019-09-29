@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/linear1"
+       android:layout_marginLeft="10dp"
+       >
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Tomorow"
+           />
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linear1"
+        android:background="#ffff"
+        android:id="@+id/linear2"
+        android:layout_marginLeft="10dp"
+        >
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/clock"
+            >
+
+
+        </ImageView>
+        <TextView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="07:00"
+        android:textSize="50dp"
+        android:layout_marginLeft="10dp"
+        />
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="in 16 hour"
+            android:layout_marginTop="-15dp"
+            />
+         <Switch
+             android:layout_width="50dp"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="-15dp"
+             android:layout_marginRight="0dp"
+             />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear2"
+        android:background="#ffff"
+        android:id="@+id/linear3"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EVERY DAY"
+            android:layout_marginLeft="100dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linear3"
+        android:background="#ffff"
+        android:id="@+id/linear4"
+
+        >
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/gift"
+            >
+
+
+        </ImageView>
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="18:15"
+            android:textSize="50dp"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="in 1 Day"
+            android:layout_marginTop="-15dp"
+            />
+        <Switch
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-15dp"
+            android:layout_marginRight="30dp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:id="@+id/linear5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear4"
+        android:background="#ffff"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Friend BirthDay One Time"
+            android:layout_marginLeft="100dp"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear6"
+        android:layout_below="@id/linear5"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Saturday"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:id="@+id/linear7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/linear6"
+        android:background="#ffff"
+        >
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/coffee"
+            >
+
+
+        </ImageView>
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="08:30"
+            android:textSize="50dp"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="in 3 Day"
+            android:layout_marginTop="-15dp"
+            />
+        <Switch
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-15dp"
+            android:layout_marginRight="30dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear7"
+        android:background="#ffff"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Weekkend,SAT or SUN"
+            android:layout_marginLeft="110dp"
+
+            />
+    </LinearLayout>
+</RelativeLayout>
